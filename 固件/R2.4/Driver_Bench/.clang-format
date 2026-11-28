@@ -1,0 +1,23 @@
+# C 源码保留四空格缩进、独占一行的大括号。声明和赋值使用单个空格。
+BasedOnStyle: LLVM
+IndentWidth: 4
+ContinuationIndentWidth: 4
+UseTab: Never
+ColumnLimit: 110
+BreakBeforeBraces: Allman
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+PointerAlignment: Left
+SpaceBeforeParens: Never
+AlignConsecutiveDeclarations: false
+AlignConsecutiveAssignments: false
+AlignConsecutiveMacros: false
+AlignTrailingComments: false
+AlignOperands: DontAlign
+AlignAfterOpenBracket: DontAlign
+BinPackArguments: true
+IndentCaseLabels: true
+SeparateDefinitionBlocks: Always
+SortIncludes: Never
+ReflowComments: false
